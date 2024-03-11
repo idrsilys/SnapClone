@@ -8,6 +8,11 @@
 import UIKit
 
 class FeedCell: UITableViewCell {
+    
+    @IBOutlet weak var feedImageView: UIImageView!
+    
+    @IBOutlet weak var feedUsernameLabel: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
